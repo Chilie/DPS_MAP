@@ -1,0 +1,19 @@
+conditioning:
+  method: dmps
+  params:
+    scale: 1.0
+
+data:
+  name: imagenet
+  root: ./data/imagenet256_10/
+
+measurement:
+  operator:
+    name: deblur
+    type: uniform
+    kernel_size: 9
+    intensity: 3.0
+  
+  noise: 
+    name: gaussian
+    sigma: 0.05

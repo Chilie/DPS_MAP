@@ -1,0 +1,7 @@
+
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config.yaml --task_config=configs/ffhq/dmps_ddim/sr4_config.yaml --save_dir=ffhq_SIAM_ddim
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config.yaml --task_config=configs/ffhq/dmps_ddim/sr8_config.yaml --save_dir=ffhq_SIAM_ddim
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config.yaml --task_config=configs/ffhq/dmps_ddim/inpaint_config.yaml --save_dir=ffhq_SIAM_ddim
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config_200.yaml --task_config=configs/ffhq/dmps_ddim/inpaint_config_random.yaml --save_dir=ffhq_SIAM_ddim
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config.yaml --task_config=configs/ffhq/dmps_ddim/deblur_gauss_config.yaml --save_dir=ffhq_SIAM_ddim
+python3 main_Gaussain_batched.py --model_config=configs/ffhq/dmps_ddim/model_config.yaml --diffusion_config=configs/ffhq/dmps_ddim/diffusion_config.yaml --task_config=configs/ffhq/dmps_ddim/deblur_uniform_config.yaml --save_dir=ffhq_SIAM_ddim

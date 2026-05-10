@@ -1,0 +1,9 @@
+sampler: ddim_ori #ddim_ori #ddpm
+steps: 1000
+noise_schedule: linear
+model_mean_type: epsilon_ddim_ori #epsilon_ddim_ori #epsilon 
+model_var_type: learned_range
+dynamic_threshold: False
+clip_denoised: True
+rescale_timesteps: False
+timestep_respacing: 100 #0 #1000 #1000

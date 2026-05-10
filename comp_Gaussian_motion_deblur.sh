@@ -1,0 +1,5 @@
+python3 main_Gaussain_batched_motion_deblur.py --model_config=configs_poisson/model_config.yaml --diffusion_config=configs_poisson/diffusion_config_DDIM.yaml --task_config=configs_poisson/motion_deblur_config_ours.yaml --save_dir=results/ffhq_DDIM_100_motion_deblur_ours
+python3 main_Gaussain_batched_motion_deblur.py --model_config=configs_poisson/imagenet_model_config.yaml --diffusion_config=configs_poisson/diffusion_config_DDIM.yaml --task_config=configs_poisson/imagenet_motion_deblur_config_ours.yaml --save_dir=results/imagenet_DDIM_100_motion_deblur_ours
+
+python3 main_Gaussain_batched_motion_deblur.py --model_config=configs_poisson/model_config.yaml --diffusion_config=configs_poisson/diffusion_config.yaml --task_config=configs_poisson/motion_deblur_config_ours.yaml --save_dir=results/ffhq_DDPM_motion_deblur_ours
+python3 main_Gaussain_batched_motion_deblur.py --model_config=configs_poisson/imagenet_model_config.yaml --diffusion_config=configs_poisson/diffusion_config.yaml --task_config=configs_poisson/imagenet_motion_deblur_config_ours.yaml --save_dir=results/imagenet_DDPM_motion_deblur_ours
