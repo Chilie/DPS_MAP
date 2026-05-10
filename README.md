@@ -79,11 +79,15 @@ bash comp_DDIM_Poisson.sh
 If you find the code useful for your research, please consider citing as 
 
 ```
-@article{meng2022diffusion,
-  title={Diffusion Model Based Posterior Samplng for Noisy Linear Inverse Problems},
-  author={Meng, Xiangming and Kabashima, Yoshiyuki},
-  journal={arXiv preprint arXiv:2211.12343},
-  year={2022}
+@article{li2025efficient,
+  title={Efficient diffusion posterior sampling for noisy inverse problems},
+  author={Li, Ji and Wang, Chao},
+  journal={SIAM Journal on Imaging Sciences},
+  volume={18},
+  number={2},
+  pages={1468--1492},
+  year={2025},
+  publisher={SIAM}
 }
 
 ```
@@ -99,17 +103,6 @@ This repo is developed based on  [DPS code](https://github.com/DPS2022/diffusion
     author={Bahjat Kawar and Michael Elad and Stefano Ermon and Jiaming Song},
     booktitle={Advances in Neural Information Processing Systems},
     year={2022}
-}
-
-@article{li2025efficient,
-  title={Efficient diffusion posterior sampling for noisy inverse problems},
-  author={Li, Ji and Wang, Chao},
-  journal={SIAM Journal on Imaging Sciences},
-  volume={18},
-  number={2},
-  pages={1468--1492},
-  year={2025},
-  publisher={SIAM}
 }
 
 @article{chung2022diffusion,
